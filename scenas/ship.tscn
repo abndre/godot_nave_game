@@ -27,9 +27,11 @@ __meta__ = {
 [node name="sprite" type="Sprite" parent="." index="0"]
 
 texture = ExtResource( 2 )
+_sections_unfolded = [ "Animation", "Material", "Offset", "Pause", "Region", "Transform", "Visibility", "Z Index" ]
 
 [node name="shape" type="CollisionShape2D" parent="." index="1"]
 
 shape = SubResource( 1 )
+_sections_unfolded = [ "Material", "Pause", "Transform", "Visibility", "Z Index" ]
 
 
